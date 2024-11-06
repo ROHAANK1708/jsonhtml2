@@ -11,11 +11,7 @@
         import json2html from 'https://rohaank1708.github.io/jsonhtml2/';
 
 
-        const data = [
-            { Name: "Alice", Age: 25 },
-            { Name: "Bob", Age: 30 },
-            { Name: "Charlie", Age: 35, Gender: "M" }
-        ];
+        
 
         const tableHtml = json2html(data);
         document.getElementById('table-container').innerHTML = tableHtml;
